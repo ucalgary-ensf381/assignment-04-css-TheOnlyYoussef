@@ -1,0 +1,136 @@
+ul {
+    list-style: none;
+    margin: 1;
+    padding: 0px;
+    display: flex;
+    background: red;
+  }
+  
+li {
+    background: rgb(226, 215, 199);
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+
+.nav a {
+    text-decoration: none; 
+    color: black;
+    font-size: 1.2em;
+    font-family: "Optima", sans-serif;
+    
+  }
+
+a:active{
+    color:blueviolet; 
+}
+a:hover{
+    color:blueviolet;
+}
+a::visited{
+    color:blueviolet;
+}
+a:link {
+    color: blueviolet; 
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    padding: 50px;
+  }
+  
+.vl {
+    border-left: 0.5px solid lightgrey;
+    height: 700px;
+    float: left; 
+    padding: 20px;
+    
+  }
+
+.pic{
+    float: left;
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+
+.about {
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"Optima", sans-serif;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color:  #ccc;
+    text-align: center;
+    font-size: small;
+
+  }
+
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Optima", sans-serif;
+}
+
+.title {
+    font-size: 20px;
+
+}
+.email{
+    color:  burlywood; 
+}
+
+.dates{
+  text-align: right; 
+  padding-left: 150px;
+    
+}
+
+.education{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"Optima", sans-serif;
+}
+
+.creds{
+    padding: 100px; 
+
+}
+
+.datesedu{
+    text-align: right; 
+    padding-left: 300px;
+}
+
+.skills{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family:"Optima", sans-serif;
+
+}
+
+.progskills{
+    text-align: right; 
+    padding-left: 300px;
+}
+
+.interests{
+    text-align-last: left;
+    padding-top: 100px;
+    padding-right: 400px;
+    font-family: "Optima", sans-serif;
+}
